@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+
+<body>
+   <audio class="pig" controls>
+      <source src="https://310401.selcdn.ru/links/violin.mp3" type="audio/mpeg">
+   </audio>
+   <style>
+      audio::-webkit-media-controls-panel {
+         background-color: #d6c9b0;
+      }
+
+      .pig {
+         padding-top: 20px;
+         display: block;
+         margin: 0 auto;
+         width: 50%;
+      }
+
+      @media screen and (max-width: 720px) {
+         .pig {
+            padding-top: 20px;
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+         }
+      }
+   </style>
+</body>
+
+</html>
